@@ -7,7 +7,7 @@
     <ProjectGuid>{38A5ED8C-F6A1-4400-80E8-85D0DE3F98AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_10_Perfect</RootNamespace>
-    <AssemblyName>_10_Perfect</AssemblyName>
+    <AssemblyName>10_Perfect</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Perfect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

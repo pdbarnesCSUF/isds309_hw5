@@ -7,7 +7,7 @@
     <ProjectGuid>{BD458AEF-6041-4929-B64D-F249E27B2AAE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_13_CountVowels</RootNamespace>
-    <AssemblyName>_13_CountVowels</AssemblyName>
+    <AssemblyName>13_CountVowels</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CountVowels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

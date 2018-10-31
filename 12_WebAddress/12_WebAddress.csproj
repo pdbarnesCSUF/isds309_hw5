@@ -7,7 +7,7 @@
     <ProjectGuid>{632ABC65-BFC1-4C21-B62A-47D370D2700C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_12_WebAddress</RootNamespace>
-    <AssemblyName>_12_WebAddress</AssemblyName>
+    <AssemblyName>12_WebAddress</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="WebAddress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
