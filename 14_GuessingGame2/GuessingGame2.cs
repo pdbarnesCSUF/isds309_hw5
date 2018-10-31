@@ -34,7 +34,28 @@ namespace _14_GuessingGame2
             WriteLine("hw5#14 - Patrick Barnes");
             WriteLine("GuessingGame2");
 
+            const int MIN = 1;  //inclusive
+            const int MAX = 11; //exclusive
+            int randomNumber = 0;
+            int guess = -1;
+            int attempts = 0;
 
+            Random ranNumberGenerator = new Random();
+            //(inclusive,	exclusive)
+            randomNumber = ranNumberGenerator.Next(MIN, MAX);
+            //WriteLine("DEBUG:randomNumber={0}",randomNumber); //DEBUG
+            while (guess != randomNumber)
+            {
+                Write("Guess a number ({0}-{1}):", MIN, MAX - 1);
+                guess = int.Parse(ReadLine());
+                ++attempts;
+                if (guess == randomNumber)
+                    WriteLine("Correct! {0} attemps.",attempts);
+                else if (guess < randomNumber)
+                    WriteLine("Too low");
+                else
+                    WriteLine("Too high");
+            }
 
             WriteLine("--End--");
         }
